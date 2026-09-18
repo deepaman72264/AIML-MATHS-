@@ -1,7 +1,7 @@
 #now we are checking the interval of each confidence level 
 
 import math 
-data=[60,65,72,81,93,74,58,69,81,89]
+data=[72,34,56,87,94,66,44,83,90,76]
 population_sd= 5
 mean=sum(data)/len(data)
 n=len(data)
@@ -31,7 +31,3 @@ print(lower_95,"to",upper_95)
 
 print(" \n 99 class interval:")
 print(lower_99,"to",upper_99)
-
-
-
-
